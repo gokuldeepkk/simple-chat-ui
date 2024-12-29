@@ -1,0 +1,59 @@
+.appButton {
+  background-color: #eab308;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.appButton:hover {
+  background-color: #a16207;
+}
+
+.appButton[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chat-input {
+  height: fit-content;
+}
+
+.message {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.message-container {
+  flex-direction: column;
+}
+
+.info {
+  align-items: center;
+}
+
+.sent {
+  align-items: end;
+}
+
+.received {
+  align-items: start;
+}
+
+.info .message {
+  background-color: gray;
+  font-style: italic;
+}
+
+.sent .message {
+  background-color: rgb(58, 168, 58);
+  color: #eee;
+}
+
+.received .message {
+  background-color: rgb(44, 44, 215);
+  color: #eee;
+}
